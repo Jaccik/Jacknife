@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jacciik\.android\build-cache\e0723a59a150f9b30bbcd758c62a5da75c04d246\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jacciik\.android\build-cache\7161dc251df1e132f61d83dc3bd901be2231349d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\caf4a07ae10bea082d7dfc9317636104818d7228\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jacciik\.android\build-cache\eb237407d9c8a929112e8d805000321f47c59fac\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jacciik\.android\build-cache\0bccd524d258f0edd79576f4d0850ed93900cd06\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\dd1604a0a80e000169b9ca90ea76e9eac01d0405\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\b83f42101312803f1d1589bae176fbab6c80a5bd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\e3900370b3969c2fde4e84a5dfd36a397a15ef9d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jacciik\.android\build-cache\5a1bd2ca4b038991d0fcbbf0e48e4e456fbc0ad6\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:9:9-41
+	android:supportsRtl
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:11:9-35
+	android:roundIcon
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:10:9-54
+	android:allowBackup
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:6:9-40
+activity#com.example.jacciik.mytaomaoduobao.MainActivity
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.jacciik.mytaomaoduobao.SearchRecord
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:20:9-50
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:20:19-47
+activity#com.example.jacciik.mytaomaoduobao.TbItemTab
+ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:21:9-56
+	android:name
+		ADDED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml:21:19-44
+uses-sdk
+INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\04b5aefb15aa62d591f57ec8c71f3ac5732fc2cb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jacciik\.android\build-cache\e0723a59a150f9b30bbcd758c62a5da75c04d246\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jacciik\.android\build-cache\7161dc251df1e132f61d83dc3bd901be2231349d\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\caf4a07ae10bea082d7dfc9317636104818d7228\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jacciik\.android\build-cache\eb237407d9c8a929112e8d805000321f47c59fac\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jacciik\.android\build-cache\0bccd524d258f0edd79576f4d0850ed93900cd06\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\dd1604a0a80e000169b9ca90ea76e9eac01d0405\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\b83f42101312803f1d1589bae176fbab6c80a5bd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android:flexbox:0.2.6] C:\Users\Jacciik\.android\build-cache\9a9dc805d7d21c3d18d263af248fa1335e177107\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\e3900370b3969c2fde4e84a5dfd36a397a15ef9d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Jacciik\.android\build-cache\5a1bd2ca4b038991d0fcbbf0e48e4e456fbc0ad6\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APPS\Jacknife\MyTaoMaoDuoBao\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\04b5aefb15aa62d591f57ec8c71f3ac5732fc2cb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Jacciik\.android\build-cache\e0723a59a150f9b30bbcd758c62a5da75c04d246\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Jacciik\.android\build-cache\7161dc251df1e132f61d83dc3bd901be2231349d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\caf4a07ae10bea082d7dfc9317636104818d7228\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Jacciik\.android\build-cache\eb237407d9c8a929112e8d805000321f47c59fac\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Jacciik\.android\build-cache\0bccd524d258f0edd79576f4d0850ed93900cd06\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\dd1604a0a80e000169b9ca90ea76e9eac01d0405\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Jacciik\.android\build-cache\b83f42101312803f1d1589bae176fbab6c80a5bd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Jacciik\.android\build-cache\e3900370b3969c2fde4e84a5dfd36a397a15ef9d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\04b5aefb15aa62d591f57ec8c71f3ac5732fc2cb\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Jacciik\.android\build-cache\04b5aefb15aa62d591f57ec8c71f3ac5732fc2cb\output\AndroidManifest.xml:23:9-47
