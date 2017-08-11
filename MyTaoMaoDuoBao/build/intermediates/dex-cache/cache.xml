@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="G:\AndroidSdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
@@ -153,6 +162,15 @@
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a4a47efdf7c7c32a36de8df63b46cd53aea1dd78">
+        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_69303d5801a3b02b9156eab2dba87cca0205623b\classes.dex" />
     </item>
     <item
         is-multidex="true"
