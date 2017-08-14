@@ -27,13 +27,19 @@ import butterknife.BindView;
  * Created by Jacciik on 2017/8/9.
  */
 
-public class FragmentTotal extends BaseFragment{
+public class FragmentTotal extends BaseFragment implements TbkItemFragmentView {
     @BindView(R.id.recycler_view)
     RecyclerView mRecyclerView;
     @BindView(R.id.refresh_layout)
     SwipeRefreshLayout mSwipeRefreshLayout;
-
-
+    private List<NTbkItem> mTbkItems;
+    String mKeyword;
+    private int mCurPage = 1;
+    LinearLayoutManager mLayoutManager = null;
+    int mLastVisibleItem; //最后一个能看见的商品
+    int mFirstVisibleItem;  //第一个能看见的商品
+    TbItemAdapter adapter;
+    private TbkItemPresenterImpl tbkItemPresenter;
     private static FragmentTotal instance = null;
   /*  @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -59,12 +65,9 @@ public class FragmentTotal extends BaseFragment{
         return R.layout.fragment_total;
     }
 
-    @Override
-    public void finishCreateView(Bundle state) {
 
-    }
 
-    /*  @Override
+      @Override
     public void addToFragment(TbkResult datas) {
         if(datas.getTbkItemGetResponse().getResults().getNTbkItem()!=null){
             mTbkItems = datas.getTbkItemGetResponse().getResults().getNTbkItem();
@@ -141,6 +144,6 @@ public class FragmentTotal extends BaseFragment{
         //重新加载页面
         mCurPage = 1;
         tbkItemPresenter.createFragment("total", mKeyword, null, null, 1, 0, 0, 0, 0);
-    }*/
+    }
 }
 

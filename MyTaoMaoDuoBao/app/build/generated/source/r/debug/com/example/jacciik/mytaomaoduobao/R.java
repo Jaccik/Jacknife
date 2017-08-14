@@ -3549,13 +3549,13 @@ containing a value of this type.
         public static final int alibc_link_title_bar_close=0x7f020053;
         public static final int alibc_link_titlebar_back=0x7f020054;
         public static final int avd_hide_password=0x7f020055;
-        public static final int avd_hide_password_1=0x7f02007e;
-        public static final int avd_hide_password_2=0x7f02007f;
-        public static final int avd_hide_password_3=0x7f020080;
+        public static final int avd_hide_password_1=0x7f02007f;
+        public static final int avd_hide_password_2=0x7f020080;
+        public static final int avd_hide_password_3=0x7f020081;
         public static final int avd_show_password=0x7f020056;
-        public static final int avd_show_password_1=0x7f020081;
-        public static final int avd_show_password_2=0x7f020082;
-        public static final int avd_show_password_3=0x7f020083;
+        public static final int avd_show_password_1=0x7f020082;
+        public static final int avd_show_password_2=0x7f020083;
+        public static final int avd_show_password_3=0x7f020084;
         public static final int black_background=0x7f020057;
         public static final int com_alibaba_bc_auth_cancle_btn=0x7f020058;
         public static final int com_alibaba_bc_auth_ll_bg=0x7f020059;
@@ -3587,14 +3587,15 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020073;
         public static final int notification_bg_normal_pressed=0x7f020074;
         public static final int notification_icon_background=0x7f020075;
-        public static final int notification_template_icon_bg=0x7f02007c;
-        public static final int notification_template_icon_low_bg=0x7f02007d;
+        public static final int notification_template_icon_bg=0x7f02007d;
+        public static final int notification_template_icon_low_bg=0x7f02007e;
         public static final int notification_tile_bg=0x7f020076;
         public static final int notify_panel_notification_icon_bg=0x7f020077;
         public static final int search_edit_shape=0x7f020078;
         public static final int svg_delete=0x7f020079;
         public static final int svg_search=0x7f02007a;
         public static final int white_radius=0x7f02007b;
+        public static final int yw_1222=0x7f02007c;
     }
     public static final class id {
         public static final int action0=0x7f0e00cc;

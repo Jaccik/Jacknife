@@ -1,4 +1,4 @@
-#Mon Aug 14 20:22:25 CST 2017
+#Mon Aug 14 21:12:41 CST 2017
 base.0=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d62cf45f5d12e5e40187d314dd52320607ce59c2
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -1,4 +1,4 @@
-#Mon Aug 14 18:23:50 CST 2017
+#Mon Aug 14 20:41:31 CST 2017
 base.0=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
 file.0=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex
