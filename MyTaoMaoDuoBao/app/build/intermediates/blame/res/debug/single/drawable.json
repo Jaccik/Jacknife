@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_cancle_btn.xml",
-        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\9c0290afa2c8a0efca4b3f0791864156d8a6f3ab\\output\\res\\drawable\\com_alibaba_bc_auth_cancle_btn.xml"
-    },
-    {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\Jacciik\\.android\\build-cache\\cf4c4d1972484b3dcb5e7e6183f8704cfb7732f4\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_cancle_btn.xml",
+        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\9c0290afa2c8a0efca4b3f0791864156d8a6f3ab\\output\\res\\drawable\\com_alibaba_bc_auth_cancle_btn.xml"
     },
     {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Jacciik\\.android\\build-cache\\9c0290afa2c8a0efca4b3f0791864156d8a6f3ab\\output\\res\\drawable\\com_alibaba_bc_auth_ll_bg.xml"
     },
     {
-        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\goods_attr_selected_shape.xml",
         "source": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\src\\main\\res\\drawable\\goods_attr_selected_shape.xml"
+    },
+    {
+        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",

@@ -40,12 +40,12 @@
         "source": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\src\\main\\res\\layout\\popup_goods_details.xml"
     },
     {
-        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Jacciik\\.android\\build-cache\\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "E:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

@@ -32,14 +32,6 @@ public class FragmentTotal extends BaseFragment{
     RecyclerView mRecyclerView;
     @BindView(R.id.refresh_layout)
     SwipeRefreshLayout mSwipeRefreshLayout;
-    private List<NTbkItem> mTbkItems;
-    String mKeyword;
-    private int mCurPage = 1;
-    LinearLayoutManager mLayoutManager = null;
-    int mLastVisibleItem; //最后一个能看见的商品
-    int mFirstVisibleItem;  //第一个能看见的商品
-    TbItemAdapter adapter;
-    private TbkItemPresenterImpl tbkItemPresenter;
 
 
     private static FragmentTotal instance = null;

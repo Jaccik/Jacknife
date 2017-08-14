@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Aug 14 18:23:51 CST 2017
+#Mon Aug 14 20:22:25 CST 2017
 210.set=ANDROID_RESOURCE
 282.file=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_dialog_title_material.xml
 14.set=ANDROID_RESOURCE

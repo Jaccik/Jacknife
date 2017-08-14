@@ -54,6 +54,8 @@ public class TbItemTab extends FragmentActivity {
         search_edit=(EditText) findViewById(R.id.search_edit2);
         setupSearchBar();
         Bundle fragmentBundle = new Bundle();
+
+        fragmentBundle.putString("keyword", keyword);
         fragmentTotal = FragmentTotal.newInstance();
         fragmentTotal.setArguments(fragmentBundle);
 
