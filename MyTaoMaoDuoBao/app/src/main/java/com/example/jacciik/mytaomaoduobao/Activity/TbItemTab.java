@@ -49,6 +49,8 @@ public class TbItemTab extends FragmentActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_tb_item_tab);
         TabViewPagerAdapter viewPagerAdapter = new TabViewPagerAdapter(getSupportFragmentManager());
+        Intent intent = getIntent();
+        String keyword = intent.getStringExtra("keyword");
         search_edit=(EditText) findViewById(R.id.search_edit2);
         setupSearchBar();
         Bundle fragmentBundle = new Bundle();

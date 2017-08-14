@@ -1,7 +1,7 @@
-#Fri Aug 11 20:41:24 CST 2017
-base.0=E\:\\WorkSpace\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_69303d5801a3b02b9156eab2dba87cca0205623b
+#Mon Aug 14 18:23:51 CST 2017
+base.0=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d62cf45f5d12e5e40187d314dd52320607ce59c2
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=E\:\\WorkSpace\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d\\classes.dex
-base.1=E\:\\WorkSpace\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d
-file.0=E\:\\WorkSpace\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_69303d5801a3b02b9156eab2dba87cca0205623b\\classes.dex
+file.1=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_74bcd496af66b6ad7d70fe742401ef68836ab162\\classes.dex
+base.1=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_74bcd496af66b6ad7d70fe742401ef68836ab162
+file.0=E\:\\APPS\\Jacknife\\MyTaoMaoDuoBao\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d62cf45f5d12e5e40187d314dd52320607ce59c2\\classes.dex

@@ -104,6 +104,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="alibc_transparent">#00000000</color>
     <color name="asr_cursor_color">#1c7efb</color>
     <color name="asr_edit_color">#ececf1</color>
     <color name="asr_edit_color_p">#1c7efb</color>
@@ -366,6 +367,16 @@
     <declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/></declare-styleable>
+    <declare-styleable name="Banner"><attr format="integer" name="delay_time"/><attr format="integer" name="scroll_time"/><attr format="boolean" name="is_auto_play"/><attr format="color|reference" name="title_background"/><attr format="color" name="title_textcolor"/><attr format="dimension" name="title_textsize"/><attr format="dimension" name="title_height"/><attr format="dimension" name="indicator_width"/><attr format="dimension" name="indicator_height"/><attr format="dimension" name="indicator_margin"/><attr format="reference" name="indicator_drawable_selected"/><attr format="reference" name="indicator_drawable_unselected"/><attr format="enum" name="image_scale_type">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr></declare-styleable>
     <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/><attr name="elevation"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
@@ -741,6 +752,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size">14sp</dimen>
@@ -812,6 +825,7 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="com_taobao_nb_sdk_webview_click" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="progress_circular" type="id"/>
@@ -823,6 +837,7 @@
     <item name="transition_scene_layoutid_cache" type="id"/>
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
+    <item name="webviewload_monitor_cancel_point" type="id">webviewload_monitor_cancel_point</item>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
@@ -832,6 +847,7 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="AlibcWebviewTag">AlibcWebviewTag</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -863,10 +879,102 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="alisdk_message_10008_action">请稍后重试当前操作，若仍然出错，请反馈至论坛，技术支持或 Android SDK 开发咨询群</string>
+    <string name="alisdk_message_10008_message">生成订单地址出错, 错误信息为 {0}</string>
+    <string name="alisdk_message_10008_name">GET_ORDER_URL_EXCEPTION</string>
+    <string name="alisdk_message_10008_type">E</string>
+    <string name="alisdk_message_10009_action">请稍后重试当前操作，若仍然出错，请反馈至论坛，技术支持或 Android SDK 开发咨询群</string>
+    <string name="alisdk_message_10009_message">查询订单出错, 错误信息为 {0}</string>
+    <string name="alisdk_message_10009_name">QUERY_ORDER_RESULT_EXCEPTION</string>
+    <string name="alisdk_message_10009_type">E</string>
+    <string name="alisdk_message_14_message">调用外部API传入参数为null，请加入参数再试</string>
+    <string name="alisdk_message_17_action"/>
+    <string name="alisdk_message_17_message">不能获取类名为 {0}，过滤条件为 {1} 的服务</string>
+    <string name="alisdk_message_17_name">SERVICE_NOT_AVAILABLE_ERROR</string>
+    <string name="alisdk_message_17_type">E</string>
+    <string name="alisdk_message_801_action">请调整参数后重试当前操作</string>
+    <string name="alisdk_message_801_message">商品数量必须为整数并大于 0</string>
+    <string name="alisdk_message_801_name">QUANTITY_FORMAT_ERROR</string>
+    <string name="alisdk_message_801_type">E</string>
+    <string name="alisdk_message_802_action">请修改传入的淘客 pid，如不确认，请联系淘客相关人员</string>
+    <string name="alisdk_message_802_message">当前传入的淘客 pid {0} 非法，正确格式应以 mm_ 为前缀</string>
+    <string name="alisdk_message_802_name">INVALID_TAOKE_PID_ERROR</string>
+    <string name="alisdk_message_802_type">E</string>
+    <string name="alisdk_message_803_action">请在初始化之前调用 TradeConfigs.defaultTaokePid="mm_****" 设置默认的淘客 pid 值, 此值会在相关方法调用时未指定 pid 时使用</string>
+    <string name="alisdk_message_803_message">未设置默认的淘客 pid</string>
+    <string name="alisdk_message_803_name">INVALID_DEFAULT_TAOKE_PID</string>
+    <string name="alisdk_message_803_type">W</string>
+    <string name="alisdk_message_804_action">请准备订单号和支付宝错误码至旺旺支付宝移动支持群(旺旺号:移动收单daily)咨询</string>
+    <string name="alisdk_message_804_message">使用支付宝支付失败，支付宝错误码为 8000, 含义为正在处理中</string>
+    <string name="alisdk_message_804_name">PAY_IN_PROGRESS</string>
+    <string name="alisdk_message_804_type">E</string>
+    <string name="alisdk_message_805_action">请准备订单号和支付宝错误码至旺旺支付宝移动支持群(旺旺号:移动收单daily)咨询</string>
+    <string name="alisdk_message_805_message">使用支付宝支付失败，支付宝错误码为 4000, 含义为订单支付失败</string>
+    <string name="alisdk_message_805_name">PAY_ORDER_FAILED</string>
+    <string name="alisdk_message_805_type">E</string>
+    <string name="alisdk_message_806_action">请准备订单号和支付宝错误码至旺旺支付宝移动支持群(旺旺号:移动收单daily)咨询</string>
+    <string name="alisdk_message_806_message">使用支付宝支付失败，支付宝错误码为 6001, 含义为用户中途取消</string>
+    <string name="alisdk_message_806_name">PAY_USER_CANCEL</string>
+    <string name="alisdk_message_806_type">E</string>
+    <string name="alisdk_message_807_action">请准备订单号和支付宝错误码至旺旺支付宝移动支持群(旺旺号:移动收单daily)咨询</string>
+    <string name="alisdk_message_807_message">使用支付宝支付失败，支付宝错误码为 6002, 含义为网络连接出错</string>
+    <string name="alisdk_message_807_name">PAY_NETWORK_FAILED</string>
+    <string name="alisdk_message_807_type">E</string>
+    <string name="alisdk_message_808_action">请准备订单号和支付宝错误码至旺旺支付宝移动支持群(旺旺号:移动收单daily)咨询</string>
+    <string name="alisdk_message_808_message">使用支付宝支付失败，支付宝错误码为 {0}</string>
+    <string name="alisdk_message_808_name">PAY_COMMON_ERROR</string>
+    <string name="alisdk_message_808_type">E</string>
+    <string name="alisdk_message_809_message">使用Apliay SDK调用方法失败，请下载最新的ApliaySDK lib包或者使用H5方式付款</string>
+    <string name="aliusersdk_network_error">亲，您的手机网络不太顺畅喔~</string>
+    <string name="aliusersdk_session_error">亲，你的操作已超时，请重试</string>
     <string name="app_name">MyTaoMaoDuoBao</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="auth_sdk_message_10003_action"/>
+    <string name="auth_sdk_message_10003_message">用户取消登录或登录失败</string>
+    <string name="auth_sdk_message_10003_name">USER_CANCEL</string>
+    <string name="auth_sdk_message_10003_type">I</string>
+    <string name="auth_sdk_message_10004_action"/>
+    <string name="auth_sdk_message_10004_message">用户取消登录</string>
+    <string name="auth_sdk_message_10004_name">TAOBAO_CANCEL</string>
+    <string name="auth_sdk_message_10004_type">I</string>
+    <string name="auth_sdk_message_10005_action"/>
+    <string name="auth_sdk_message_10005_message">唤起手淘登录失败</string>
+    <string name="auth_sdk_message_10005_name">TAOBAO_ERROR</string>
+    <string name="auth_sdk_message_10005_type">I</string>
+    <string name="auth_sdk_message_10010_action"/>
+    <string name="auth_sdk_message_10010_message">系统异常</string>
+    <string name="auth_sdk_message_10010_name">SYSTEM_ERROR</string>
+    <string name="auth_sdk_message_10010_type">I</string>
+    <string name="auth_sdk_message_10015_action"/>
+    <string name="auth_sdk_message_10015_message">退出登录</string>
+    <string name="auth_sdk_message_10015_name">USER_LOGOUT</string>
+    <string name="auth_sdk_message_10015_type">I</string>
+    <string name="auth_sdk_message_10101_action"/>
+    <string name="auth_sdk_message_10101_message">H5登录失败</string>
+    <string name="auth_sdk_message_10101_name">H5_ERROR</string>
+    <string name="auth_sdk_message_10101_type">I</string>
+    <string name="auth_sdk_message_15_action">请使用默认的 androiddebugkey 对当前开发应用签名或在应用初始化之前调用 MemberSDK.turnOnDebug(), 运行程序查看 logcat 输出以获取更多错误细节，并采取对应操作</string>
+    <string name="auth_sdk_message_15_message">接口异常，错误消息为： {0}, 请使用 LogCat 查看更多细节</string>
+    <string name="auth_sdk_message_15_name">SERVER_REQUEST_ERROR</string>
+    <string name="auth_sdk_message_15_type">I</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="com_taobao_nb_sdk_loading_progress_message">加载中</string>
+    <string name="com_taobao_tae_sdk_alert_message">您离开太久了，请重新操作</string>
+    <string name="com_taobao_tae_sdk_authorize_title">登录授权</string>
+    <string name="com_taobao_tae_sdk_back_message">返回</string>
+    <string name="com_taobao_tae_sdk_bind_title">登录并绑定</string>
+    <string name="com_taobao_tae_sdk_close_message">返回</string>
+    <string name="com_taobao_tae_sdk_confirm">确定</string>
+    <string name="com_taobao_tae_sdk_confirm_cancel">取消</string>
+    <string name="com_taobao_tae_sdk_loading_progress_message">加载中</string>
+    <string name="com_taobao_tae_sdk_login_progress_message">登录中</string>
+    <string name="com_taobao_tae_sdk_logout_fail_message">登出失败</string>
+    <string name="com_taobao_tae_sdk_network_not_available_message">网络无法连接</string>
+    <string name="com_taobao_tae_sdk_ssl_error_info">证书错误. 是否继续访问?</string>
+    <string name="com_taobao_tae_sdk_ssl_error_title">SSL证书错误</string>
+    <string name="com_taobao_tae_sdk_system_exception">系统异常</string>
+    <string name="init_success">初始化完成</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -2390,5 +2498,26 @@
         <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    </style>
+    <style name="alibc_auth_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:width">268dp</item>
+        <item name="android:height">268dp</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/alibc_transparent</item>
+        <item name="android:windowBackground">@color/alibc_transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="tae_sdk_login_qr_activity_style">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
 </resources>

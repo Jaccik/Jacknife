@@ -3,183 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\caf4a07ae10bea082d7dfc9317636104818d7228\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_391bbbab4057a9d8db3dea5e1a3f5a3eb0149257\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\7161dc251df1e132f61d83dc3bd901be2231349d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5cd5e7536760eb320885d97c8489691536b93a17\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="E:\APPS\Jacknife\MyTaoMaoDuoBao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d\classes.dex" />
+        <dex dex="E:\APPS\Jacknife\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d62cf45f5d12e5e40187d314dd52320607ce59c2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="G:\AndroidSdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_669efeb2db22e468ecc989b05f87c2987f4c9568\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\b83f42101312803f1d1589bae176fbab6c80a5bd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5ccbe1544afa5bc0c49b80e941b6b134f5c1d36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7edbf3398b199ac6a2de5d7c3b34cf49d1cc2f23">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_69303d5801a3b02b9156eab2dba87cca0205623b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\eb237407d9c8a929112e8d805000321f47c59fac\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f2e04b4ac3988544654c7c92d5d54804d3f7a0b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.2.2\f8c7ebdc29310be23d076e5512bafe6bad3ce2f0\greendao-3.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f8c7ebdc29310be23d076e5512bafe6bad3ce2f0">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-3.2.2_ebd811bc1cc41c85d2eb796eec9a54d5e0c5a29d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\e0723a59a150f9b30bbcd758c62a5da75c04d246\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8202184d5d78c9f4bb3484205071ee9b836c813\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\7b1fc4144e9d66930aa9ed1de66f35e4eeddd462\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7413aae0cea2419f33398a6303a167057f70469\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_a56f4ad6fb8c3c14fedadb6a2776cd43474e6f82\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.2.2\e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33\greendao-api-3.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e9bbf7a184b0b4914a10d8179c993cc9aa9b1b33">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-api-3.2.2_2d35e384866a0a0bb464ea5ed0df436310ec230e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\04b5aefb15aa62d591f57ec8c71f3ac5732fc2cb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab053bb3565c45c7d4749845cb13074d43846025\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\dd1604a0a80e000169b9ca90ea76e9eac01d0405\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f926fd41641c13bdd24a0b1456713e4788635bb1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\e3900370b3969c2fde4e84a5dfd36a397a15ef9d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9d3088fa755de0e7073fae2909ff8a1951c416c8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\0bccd524d258f0edd79576f4d0850ed93900cd06\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdc6ecf035d606451a51648762c19799547ccda2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\5a1bd2ca4b038991d0fcbbf0e48e4e456fbc0ad6\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88466bfbef66aefd48778f3574729f73c703b48e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a6da51edadcc188595ea592dae637b5ec6344a3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="E:\APPS\Jacknife\MyTaoMaoDuoBao\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a4a47efdf7c7c32a36de8df63b46cd53aea1dd78">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_69303d5801a3b02b9156eab2dba87cca0205623b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jacciik\.android\build-cache\9a9dc805d7d21c3d18d263af248fa1335e177107\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0b83a4b286fe2d068d47e9f9567758f6319b1040">
-        <dex dex="E:\WorkSpace\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62027a4610254b1dc2f1b854c6e41710efb1c10b\classes.dex" />
+        sha1="ad863abd04190d7b9ebc6f243f75bf9641526033">
+        <dex dex="E:\APPS\Jacknife\MyTaoMaoDuoBao\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_74bcd496af66b6ad7d70fe742401ef68836ab162\classes.dex" />
     </item>
 
 </items>

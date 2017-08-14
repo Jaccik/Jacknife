@@ -5,8 +5,23 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="25"
+        android:minSdkVersion="23"
         android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -14,7 +29,7 @@
 
     <application
         android:name="com.example.jacciik.mytaomaoduobao.Activity.TaoMaoDuoBaoApp"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -29,6 +44,102 @@
         </activity>
         <activity android:name="com.example.jacciik.mytaomaoduobao.Activity.SearchRecord" />
         <activity android:name="com.example.jacciik.mytaomaoduobao.Activity.TbItemTab" />
+        <activity
+            android:name="com.alibaba.baichuan.android.trade.ui.AlibcWebViewActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="COM_TAOBAO_TAE_SDK_TRADE_WEB_VIEW_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alibaba.baichuan.android.trade.ui.AlibcBackActivity"
+            android:exported="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="alisdk" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" /> <!-- mtop相关配置 -->
+        <service
+            android:name="anetwork.channel.aidl.NetworkService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="anetwork.channel.aidl.IRemoteNetworkGetter" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="mtopsdk.xstate.XStateService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="mtopsdk.xstate.aidl.IXState" />
+            </intent-filter>
+        </service>
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.alibaba.baichuan.trade.biz.auth.AlibcAuthActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name="com.ali.auth.third.ui.webview.BaseWebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.ali.auth.third.ui.LoginWebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.ali.auth.third.ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!--  -->
+        <activity
+            android:name="com.ali.auth.third.accountlink.ui.BindResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.ali.auth.third.accountlink.ui.UnbindWebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPWebviewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" />
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPCallbackActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPEntranceActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+            <intent-filter>
+                <action android:name="com.alibaba.intent.action.GETWAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="linkpartner"
+                    android:pathPrefix="/entrance"
+                    android:scheme="tbopen" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    >
 
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center"
-        android:text="WELCOME  TO   TOTAL！！"
+        android:text="我是综合页面！！"
         android:textColor="#830c0c"
         android:textSize="20sp"
         android:textStyle="bold"
