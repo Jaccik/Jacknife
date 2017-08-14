@@ -3,22 +3,22 @@
     package="com.example.jacciik.mytaomaoduobao">
 
     <application
-        android:name=".TaoMaoDuoBaoApp"
-        android:allowBackup="true"
+        android:name=".Activity.TaoMaoDuoBaoApp"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchRecord" />
-        <activity android:name=".TbItemTab"></activity>
+        <activity android:name=".Activity.SearchRecord" />
+        <activity android:name=".Activity.TbItemTab"></activity>
     </application>
 
 </manifest>

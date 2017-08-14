@@ -1,6 +1,7 @@
-package com.example.jacciik.mytaomaoduobao;
+package com.example.jacciik.mytaomaoduobao.DAO;
 
 
+import com.example.jacciik.mytaomaoduobao.Activity.TaoMaoDuoBaoApp;
 
 public class GreenDaoManager
 {

@@ -1,4 +1,4 @@
-package com.example.jacciik.mytaomaoduobao;
+package com.example.jacciik.mytaomaoduobao.Activity;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -18,13 +17,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.jacciik.mytaomaoduobao.Bean.RecordBean;
+import com.example.jacciik.mytaomaoduobao.DAO.RecordBeanDao;
+import com.example.jacciik.mytaomaoduobao.DAO.GreenDaoManager;
+import com.example.jacciik.mytaomaoduobao.R;
 import com.google.android.flexbox.FlexboxLayout;
 
 import org.greenrobot.greendao.query.QueryBuilder;
 
 import java.util.List;
-
-import static com.example.jacciik.mytaomaoduobao.R.id.search_edit;
 
 public class SearchRecord extends Activity {
     EditText search_edit;
@@ -49,11 +50,11 @@ public class SearchRecord extends Activity {
     }
     /**
      * 根据手机的分辨率从 px(像素) 的单位 转成为 dp
-     */
+
     public static int px2dip(Context context, float pxValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (pxValue / scale + 0.5f);
-    }
+    } */
     private void setupSearchBar() {
         search_edit.setOnEditorActionListener((TextView textView, int i, KeyEvent keyEvent) -> {
             if (i == EditorInfo.IME_ACTION_SEARCH) {
@@ -82,7 +83,6 @@ public class SearchRecord extends Activity {
             for (int i = 0; i < records.size(); i++) {
                 RecordBean recordBean = records.get(i);
                 TextView textView = new TextView(this);
-
                 textView.setBackground(getResources().getDrawable(R.drawable.label_bg_shape));
                 textView.setText(recordBean.getName());
                 textView.setGravity(Gravity.CENTER);

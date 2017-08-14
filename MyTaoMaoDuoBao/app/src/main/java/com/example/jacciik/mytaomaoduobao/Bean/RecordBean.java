@@ -1,4 +1,4 @@
-package com.example.jacciik.mytaomaoduobao;
+package com.example.jacciik.mytaomaoduobao.Bean;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;
