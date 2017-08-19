@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".Activity.SearchRecord" />
         <activity android:name=".Activity.TbItemTab"></activity>
+        <activity android:name=".Activity.AliSdkWebViewProxyActivity"></activity>
     </application>
 
 </manifest>

@@ -30,9 +30,9 @@ public class TbItemAdapter extends RecyclerView.Adapter<TbItemAdapter.TbItemView
     TbItemTab tbItemTab;
 
 
-    public TbItemAdapter(List<NTbkItem> tbkItems, TbItemTab tbItemActivity) {
+    public TbItemAdapter(List<NTbkItem> tbkItems, TbItemTab tbkItemActivity) {
         mTbkItems = tbkItems;
-       tbItemTab = tbItemActivity;
+       tbItemTab = tbkItemActivity;
     }
 
 

@@ -34,10 +34,6 @@ public class TbItemTab extends FragmentActivity {
     FragmentPrice fragmentPrice;
     FragmentFilter fragmentFilter;
     FragmentSale fragmentSale;
-    private Map<String, String> exParams;//yhhpass参数
-    private final static String TAG = "TakItemTabActivity";
-    private String mLastQuery = "";
-    public static final long FIND_SUGGESTION_SIMULATED_DELAY = 250;
     EditText search_edit;
     TabLayout mTabLayout;
     ViewPager mViewPager;

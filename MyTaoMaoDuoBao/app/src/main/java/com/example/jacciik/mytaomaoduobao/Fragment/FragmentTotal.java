@@ -41,17 +41,7 @@ public class FragmentTotal extends BaseFragment implements TbkItemFragmentView {
     TbItemAdapter adapter;
     private TbkItemPresenterImpl tbkItemPresenter;
     private static FragmentTotal instance = null;
-  /*  @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState)
-    {
-        return inflater.inflate(R.layout.fragment_total,null);
-    }*/
 
-
-/*
-
- */
    public static FragmentTotal newInstance() {
         if (instance == null) {
             instance = new FragmentTotal();
