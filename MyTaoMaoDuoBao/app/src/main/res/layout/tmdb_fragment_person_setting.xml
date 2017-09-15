@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#9e000000"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <LinearLayout style="@style/wrap_layout"
+        >
+
+        <!-- 上圆角-->
+        <RelativeLayout style="@style/top_layout"
+            android:layout_height="59dp"
+            android:id="@+id/infoLabel">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/usertext"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="个人信息"
+                android:textSize="16sp"/>
+
+            <ImageButton
+                android:id="@+id/backforward"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/svg_backward" />
+
+
+        </RelativeLayout>
+        <!-- 分割线 -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#9e000000"/>
+        <LinearLayout
+            style="@style/top_layout"
+            android:id="@+id/imageLayout"
+            android:layout_height="89dp">
+
+            <TextView
+                style="@style/usertext"
+                android:text="头像" />
+
+          <!--  <com.bukailiu.taomaoduobao.ui.TmdbRoundOvalImageView
+                android:id="@+id/personImage"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />-->
+
+            <ImageView
+                android:id="@+id/personImage"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/edittext_shape"/>
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/svg_forward" />
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#9e000000" />
+
+        <LinearLayout
+            style="@style/top_layout"
+            android:id="@+id/userLayout"
+            android:layout_height="59dp">
+
+            <TextView
+                style="@style/usertext"
+                android:text="用户名" />
+
+            <TextView
+                android:id="@+id/userText"
+                style="@style/usertext"
+                android:gravity="right" />
+
+
+            <ImageButton
+                android:id="@+id/backgroundButton"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/svg_forward" />
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#9e000000" />
+
+        <!-- 无圆角-->
+        <LinearLayout
+            android:id="@+id/nickLayout"
+            style="@style/top_layout"
+            android:layout_height="59dp">
+
+            <TextView
+                android:id="@+id/nickLabel"
+                style="@style/usertext"
+                android:text="昵称" />
+
+            <TextView
+                android:id="@+id/nickText"
+                style="@style/usertext"
+                android:gravity="right" />
+
+            <ImageButton
+                android:id="@+id/nickButton"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/svg_forward" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="退出登录"/>
+
+    </LinearLayout>
+    </RelativeLayout>

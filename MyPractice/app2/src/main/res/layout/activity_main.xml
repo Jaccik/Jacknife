@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.app2.MainActivity">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Hello World!" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStartAnotherAty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start another aty from app2"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:id="@+id/btnstartapp2"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="startfromapp2" />
+
+    <Button
+        android:id="@+id/btnstopapp2"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="stopfromapp2"
+        tools:text="stopfromapp2" />
+
+    <Button
+        android:id="@+id/btnbindservice"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="bindservice" />
+
+    <Button
+        android:id="@+id/btnunbindservice"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="unbindservice" />
+
+</LinearLayout>

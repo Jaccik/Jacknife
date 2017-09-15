@@ -32,9 +32,10 @@ public interface GetTbkItemService {
     Observable<TbkResult> getUserInfoByCatAndFilter(@Query("category") String category, @Query("pageno") int pageno, @Query("sort") String sort, @Query("order") String order, @Query("isMall") int isMall, @Query("isOversea") int isOversea, @Query("minVal") int minVal, @Query("maxVal") int maxVal);
 
     @GET("getToken/updateUser")
-    Observable<AliUpdateBean> updateAccount(@Query("id") String id, @Query("name") String name, @Query("pass") String pass, @Query("nick") String nick);
+    Observable<AliUpdateBean> updateAccount(@Query("id") String id, @Query("name") String name, @Query("pass") String pass);
 
     @GET("getVersion/version")
     Observable<VersionBean> getAppVersion();
-
+    @GET("getToken/delete")
+    Observable<String> deleteAccountById(@Query("accoutID") String id);
 }

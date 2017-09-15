@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/top_layout"
+        android:layout_height="59dp">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/usertext"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="我" />
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:src="@drawable/svg_setting" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/userLayout"
+        style="@style/top_layout"
+        android:layout_height="90dp">
+
+        <!--      <com.bukailiu.taomaoduobao.ui.TmdbRoundOvalImageView
+                  android:id="@+id/personImage"
+                  android:layout_width="80dp"
+                  android:layout_height="80dp"
+                  android:scaleType="fitXY"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentStart="true"/>-->
+
+        <ImageView
+            android:id="@+id/personImage"
+            android:layout_width="57dp"
+            android:layout_height="57dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edittext_shape"
+            android:src="@drawable/svg_profile" />
+
+        <!--  <ImageView
+              android:id="@+id/personImage"
+              android:layout_width="108dp"
+              android:layout_height="102dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:src="@drawable/default_personal_image" />-->
+
+
+        <TextView
+            android:id="@+id/nickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/personImage"
+            android:layout_toRightOf="@+id/personImage"
+            android:layout_above="@+id/username"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/personImage"
+            android:layout_toRightOf="@+id/personImage"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#ffff" />
+
+    <RelativeLayout
+        android:id="@+id/orderLayout"
+        style="@style/mid_layout"
+        android:layout_height="59dp">
+
+        <ImageView
+            android:id="@+id/orderImage"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/svg_tb_order" />
+
+        <TextView
+            android:id="@+id/orderText"
+            style="@style/usertext"
+            android:layout_width="94dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/orderImage"
+            android:layout_toRightOf="@+id/orderImage"
+            android:text="淘宝订单"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/orderLabel"
+            style="@style/usertext"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="查看全部订单"
+            android:textColor="#00e1ff"
+            android:textSize="14dp" />
+
+        <ImageButton
+            android:id="@+id/orderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/svg_forward" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cartLayout"
+        style="@style/mid_layout"
+        android:layout_height="59dp">
+
+        <ImageView
+            android:id="@+id/cartImage"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/svg_cart" />
+
+        <TextView
+            android:id="@+id/cartText"
+            style="@style/usertext"
+            android:layout_width="94dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/cartImage"
+            android:layout_toRightOf="@+id/cartImage"
+            android:text="淘宝购物车"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/cartLabel"
+            style="@style/usertext"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:text="查看购物车"
+            android:textColor="#00e1ff"
+            android:textSize="14dp" />
+
+        <ImageButton
+            android:id="@+id/cartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/svg_forward" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#00000000" />
+
+    <RelativeLayout
+        android:id="@+id/feedbackLayout"
+        style="@style/mid_layout"
+        android:layout_height="59dp">
+
+        <ImageView
+            android:id="@+id/helpImage"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/svg_feedback" />
+
+        <TextView
+            android:id="@+id/helpText"
+            style="@style/usertext"
+            android:layout_width="94dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/helpImage"
+            android:layout_toRightOf="@+id/helpImage"
+            android:text="帮助反馈"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/helpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/svg_forward" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#00000000" />
+
+    <RelativeLayout
+        style="@style/mid_layout"
+        android:layout_height="59dp">
+
+        <ImageView
+            android:id="@+id/aboutImage"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/svg_about" />
+
+        <TextView
+            android:id="@+id/aboutText"
+            style="@style/usertext"
+            android:layout_width="94dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/aboutImage"
+            android:layout_toRightOf="@+id/aboutImage"
+            android:text="关于"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/aboutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/svg_forward" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#00000000" />
+
+    <RelativeLayout
+        android:id="@+id/versionLayout"
+        style="@style/mid_layout"
+        android:layout_height="59dp">
+
+        <ImageView
+            android:id="@+id/versionImage"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/svg_update" />
+
+        <TextView
+            android:id="@+id/versionText"
+            style="@style/usertext"
+            android:layout_width="94dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/versionImage"
+            android:layout_toRightOf="@+id/versionImage"
+            android:text="版本更新"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/versionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:src="@drawable/svg_forward" />
+
+    </RelativeLayout>
+
+</LinearLayout>

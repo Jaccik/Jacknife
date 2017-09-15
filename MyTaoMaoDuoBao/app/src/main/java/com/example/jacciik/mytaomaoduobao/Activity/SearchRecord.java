@@ -37,12 +37,13 @@ public class SearchRecord extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_record);
-        search_edit=(EditText)findViewById(R.id.search_edit);
-        mFlexboxLayout =(FlexboxLayout)findViewById(R.id.flexbox_layout);
-        deleteImg=(ImageView)findViewById(R.id.deleteImg);
+        search_edit = (EditText) findViewById(R.id.search_edit);
+        mFlexboxLayout = (FlexboxLayout) findViewById(R.id.flexbox_layout);
+        deleteImg = (ImageView) findViewById(R.id.deleteImg);
         HandleHistory();
         setupSearchBar();
     }
+
     //dp转pixel
     public static int dip2px(Context context, float dpValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
@@ -55,6 +56,7 @@ public class SearchRecord extends Activity {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (pxValue / scale + 0.5f);
     }
+
     private void setupSearchBar() {
         search_edit.setOnEditorActionListener((TextView textView, int i, KeyEvent keyEvent) -> {
             if (i == EditorInfo.IME_ACTION_SEARCH) {
@@ -116,7 +118,6 @@ public class SearchRecord extends Activity {
                     }).setNegativeButton("取消", (DialogInterface dialogInterface, int i) ->
                     dialogInterface.dismiss()
             ).create();
-
             alertDialog.show();
         });
     }

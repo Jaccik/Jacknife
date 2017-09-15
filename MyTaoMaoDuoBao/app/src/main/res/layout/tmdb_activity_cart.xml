@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/label"
+        style="@style/top_layout"
+        android:layout_height="59dp">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/usertext"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="我的购物车"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/backforward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/svg_backward" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:src="@drawable/svg_refresh" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </WebView>
+
+</LinearLayout>

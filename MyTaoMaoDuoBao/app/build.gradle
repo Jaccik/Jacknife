@@ -44,6 +44,8 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'com.roughike:bottom-bar:2.3.1'
+
     compile 'com.alibaba:fastjson:1.2.9'
     compile 'com.alibaba.alipay:alipaySingle:20160825@jar'
     compile 'com.ali.auth.sdk:alibabauth_core:1.1.4@jar'
